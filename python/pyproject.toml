@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sudoku_solver"
+version = "0.1.0"
+description = ""
+authors = ["Stan van Dijk <536076@student.saxion.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
